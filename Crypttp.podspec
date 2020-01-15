@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Maxim Mamedov" => "" }
   spec.platform     = :ios, "11.0"
   spec.source       = { :git => "https://github.com/Crypttp/crypttp-ios-sdk.git", :tag => "#{spec.version}" }
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+  spec.source_files  = "CrypttpFramework/**/*.{h,m,swift}"
   spec.exclude_files = "Classes/Exclude"
   spec.swift_version = "5.0"
 
